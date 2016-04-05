@@ -14,6 +14,8 @@
 		733D4DB11CB3696B00BC2558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733D4DB01CB3696B00BC2558 /* Assets.xcassets */; };
 		733D4DB41CB3696B00BC2558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733D4DB21CB3696B00BC2558 /* LaunchScreen.storyboard */; };
 		733D4DBD1CB38CBE00BC2558 /* SinglePeople.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D4DBC1CB38CBE00BC2558 /* SinglePeople.m */; };
+		733D4DC01CB3959C00BC2558 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D4DBF1CB3959C00BC2558 /* Teacher.m */; };
+		733D4DC31CB395A900BC2558 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 733D4DC21CB395A900BC2558 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,11 @@
 		733D4DB51CB3696B00BC2558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		733D4DBB1CB38CBE00BC2558 /* SinglePeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePeople.h; sourceTree = "<group>"; };
 		733D4DBC1CB38CBE00BC2558 /* SinglePeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePeople.m; sourceTree = "<group>"; };
+		733D4DBE1CB3959C00BC2558 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		733D4DBF1CB3959C00BC2558 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		733D4DC11CB395A900BC2558 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		733D4DC21CB395A900BC2558 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		733D4DC41CB3994C00BC2558 /* BuyAllFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyAllFood.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +74,11 @@
 				733D4DAB1CB3696B00BC2558 /* ViewController.m */,
 				733D4DBB1CB38CBE00BC2558 /* SinglePeople.h */,
 				733D4DBC1CB38CBE00BC2558 /* SinglePeople.m */,
+				733D4DBE1CB3959C00BC2558 /* Teacher.h */,
+				733D4DBF1CB3959C00BC2558 /* Teacher.m */,
+				733D4DC11CB395A900BC2558 /* Student.h */,
+				733D4DC21CB395A900BC2558 /* Student.m */,
+				733D4DC41CB3994C00BC2558 /* BuyAllFood.h */,
 				733D4DAD1CB3696B00BC2558 /* Main.storyboard */,
 				733D4DB01CB3696B00BC2558 /* Assets.xcassets */,
 				733D4DB21CB3696B00BC2558 /* LaunchScreen.storyboard */,
@@ -157,7 +169,9 @@
 				733D4DBD1CB38CBE00BC2558 /* SinglePeople.m in Sources */,
 				733D4DAC1CB3696B00BC2558 /* ViewController.m in Sources */,
 				733D4DA91CB3696B00BC2558 /* AppDelegate.m in Sources */,
+				733D4DC01CB3959C00BC2558 /* Teacher.m in Sources */,
 				733D4DA61CB3696B00BC2558 /* main.m in Sources */,
+				733D4DC31CB395A900BC2558 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

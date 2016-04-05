@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 #import "SinglePeople.h"
-@interface ViewController ()
+#import "Teacher.h"
+#import "Student.h"
+@interface ViewController () <UITableViewDataSource>
 
 @end
 
@@ -20,9 +22,20 @@
     UILabel *label = [[UILabel alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.view addSubview:label];
     
-    [[SinglePeople sharedPeople] kanshijie];
+//    table.datasource = self;
+    
+//    [[SinglePeople sharedPeople] kanshijie];
+    Student *ldl = [[Student alloc]init];
+    
+    Teacher *teacher = [[Teacher alloc]init];
+    teacher.delegate = ldl;
+    
+    [teacher eating];
     
 }
-
+//-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+//{
+//    
+//}
 
 @end
