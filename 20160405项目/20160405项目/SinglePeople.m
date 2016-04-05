@@ -9,12 +9,19 @@
 #import "SinglePeople.h"
 
 @implementation SinglePeople
-+(SinglePeople*)sharedPeople
++(SinglePeople*)sharedPeople  //＋号，由类名直接调用
 {
-    static SinglePeople *people = nil;
-    if (!people) {
+    static SinglePeople *people = nil; //一定要static
+    if (!people) {         // !people  ==  people=nil;
         people = [[SinglePeople alloc]init];
     }
     return people;
+}
+
+-(void)kanshijie
+{
+    NSLog(@"我看到了夏威夷");
+    NSLog(@"我看到了夏威夷");
+    NSLog(@"我看到了夏威夷");
 }
 @end

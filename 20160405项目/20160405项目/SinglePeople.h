@@ -10,4 +10,8 @@
 
 @interface SinglePeople : NSObject
 
++(SinglePeople*)sharedPeople;
+
+-(void)kanshijie;
+
 @end

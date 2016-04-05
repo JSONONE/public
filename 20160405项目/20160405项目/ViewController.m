@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SinglePeople.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     UILabel *label = [[UILabel alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.view addSubview:label];
+    
+    [[SinglePeople sharedPeople] kanshijie];
     
 }
 
