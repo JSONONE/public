@@ -15,8 +15,6 @@
 
 -(void)buyFood
 {
-    NSLog(@"调用学生买饭方法");
-    NSLog(@"调用学生买饭方法");  NSLog(@"调用学生买饭方法");
-    
+      
 }
 @end

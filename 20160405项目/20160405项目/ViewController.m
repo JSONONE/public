@@ -30,8 +30,7 @@
     Teacher *teacher = [[Teacher alloc]init];
     teacher.delegate = ldl;
     
-    [teacher eating];
-     [teacher eating]; [teacher eating]; [teacher eating]; [teacher eating]; [teacher eating]; [teacher eating]; [teacher eating];
+    
     
 }
 //-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
