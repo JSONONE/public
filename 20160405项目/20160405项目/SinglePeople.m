@@ -22,7 +22,5 @@
 {
     NSLog(@"13311312312313123123");
    
-     NSLog(@"adsjfadjklsfjkldasjklfjklasd"); NSLog(@"adsjfadjklsfjkldasjklfjklasd"); NSLog(@"adsjfadjklsfjkldasjklfjklasd");
-     NSLog(@"adsjfadjklsfjkldasjklfjklasd"); NSLog(@"adsjfadjklsfjkldasjklfjklasd"); NSLog(@"adsjfadjklsfjkldasjklfjklasd"); NSLog(@"adsjfadjklsfjkldasjklfjklasd"); NSLog(@"adsjfadjklsfjkldasjklfjklasd");
 }
 @end
